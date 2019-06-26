@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
     font-size: 1em;
     margin: 0;
     color: #3a3a3a;
@@ -31,7 +31,7 @@ nav {
 
 .link-type2 {
     text-decoration: none;
-    color: #24292e;
+    color: #474b4e;
 }
 
 .link-type2:hover {
@@ -39,6 +39,7 @@ nav {
 }
 
 .nav-link {
+    font-size: 14px;
     display: flex;
     text-decoration: none;
     color: #fafafa;
@@ -114,7 +115,7 @@ input {
     border-radius: 3px;
     border: none;
     color: #fafafa;
-    background-color: #3d3d3d;
+    background-color: hsla(0,0%,100%,.125);
     padding: 6px;
 }
 
@@ -149,11 +150,12 @@ aside {
 }
 
 .status {
+    font-size: 12px;
     color: #4b4b4b;
     display: flex;
     justify-content: left;
     align-items: center;
-    margin: 12px;
+    margin: 10px;
 }
 
 .fa-laugh {
@@ -162,9 +164,9 @@ aside {
 }
 
 .name {
-    font-size: 27px;
-    font-weight: bold;
-    margin: 20px 0px 4px;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 20px 0px 0px;
 }
 
 .user {
@@ -191,7 +193,7 @@ section {
 }
 
 .section-nav {
-    font-size: 14px;
+    font-size: 13px;
     display: flex;
     height: 50px;
     border-bottom: 1px solid;
@@ -200,7 +202,8 @@ section {
 
 .sec-nav-num {
     background-color: #ebebeb;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 500;
     padding: 2px 5px;
     border-radius: 20px;
 }
@@ -217,12 +220,12 @@ section {
 
 .section-link.home {
     font-weight: bold;
-    border-bottom: 3px solid;
+    border-bottom: 2px solid;
     border-bottom-color: #e36209;
 }
 
 .section-link:hover {
-    border-bottom: 3px solid;
+    border-bottom: 2px solid;
     border-bottom-color: #dadada;
 }
 
@@ -243,17 +246,20 @@ section {
 }
 
 .boxes {
-    height: 150px;
+    height: 130px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .pin-specs {
+    font-size: 11px;
     position: absolute;
     bottom: 20px;
 }
 
 .box1 {
+    font-size: 14px;
     position: relative;
     width: 440px;
     border: 1px solid #c3c3c3;
@@ -262,6 +268,28 @@ section {
     padding: 20px;
     justify-content: end;
     color: #4b4b4b
+}
+
+.box2 {
+    font-size: 14px;
+    position: relative;
+    width: 440px;
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+    padding: 20px;
+    color: #4b4b4b;
+}
+
+.box-link-bold {
+    font-weight: 500;
+}
+
+.box-text {
+    font-size: 12px
+}
+
+.fa-star, .fa-circle, .fa-code-branch {
+    font-size: 14px;
 }
 
 .fa-book {
@@ -284,15 +312,6 @@ section {
     top: 16px;
     right: 16px;
     cursor: grab;
-}
-
-.box2 {
-    position: relative;
-    width: 440px;
-    border: 1px solid #c3c3c3;
-    border-radius: 3px;
-    padding: 20px;
-    color: #4b4b4b;
 }
 
 .contribs-top-text {
